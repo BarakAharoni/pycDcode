@@ -3,7 +3,7 @@
  Python PYC File Analysis
 
  Use the script as follow:
-    1) Get Bytecodes from pyc:  python pycDcode.py --pyc {pyc-file} --bytecode > {output-file}
+    1) Get Bytecodes from pyc:  python pycDcode.py --pyc {pyc-file} --bytecode --version {py-version} > {output-file}
     2) Build Script Template:   python pycDcode.py --bcfile {bytecode-file} --template
 
 Bytecode parsing documentation: https://betterprogramming.pub/analysis-of-compiled-python-files-629d8adbe787
