@@ -10,12 +10,6 @@ Bytecode parsing documentation: https://betterprogramming.pub/analysis-of-compil
 
  Copyright (c) 2022 Barak Aharoni.  All Rights Reserved.
 """
-from hashlib import new
-from pickle import INST
-import platform
-import time
-import binascii
-import struct
 
 import sys
 import dis, marshal
