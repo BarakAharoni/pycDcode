@@ -1,5 +1,5 @@
 # pycDcode
-Python PYC file analysis using bytecode decompilation.
+Python PYC file analysis and forensics using bytecode decompilation.
 
 
 # How to use the tool
