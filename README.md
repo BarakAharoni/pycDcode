@@ -21,3 +21,5 @@ Python PYC file analysis and forensics using bytecode decompilation.
 # Extra
 For more information about compiled python analysis see my writeup at medium:
 https://betterprogramming.pub/analysis-of-compiled-python-files-629d8adbe787
+
+Copyright (c) 2022 Barak Aharoni.  All Rights Reserved.
