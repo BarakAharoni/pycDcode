@@ -1,6 +1,14 @@
 # pycDcode
 Python PYC file analysis and forensics using bytecode decompilation.
 
+```
+                   ___             _                         
+      _ __ _  _ __|   \ __ ___  __| |___                     
+     | '_ \ || / _| |) / _/ _ \/ _` / -_)                    
+     | .__/\_, \__|___/\__\___/\__,_\___|                    
+     |_|   |__/                                              
+                                                            
+```
 
 # How to use the tool
 ```
