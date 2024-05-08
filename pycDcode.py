@@ -19,7 +19,7 @@ import re
 __version__ = '13.1.22'
 __author__ = "Barak Aharoni"
 
-BANNER = """
+BANNER = r"""
 ###############################################################
 #    Python PYC File Analysis                                 #
 #                                                             #
@@ -39,15 +39,15 @@ HEADER_SIZE_NEW = 16
 HEADER_SIZE_OLD = 8
 
 # Parsing Regex
-INSTRUCTION_REGEX = "\s\d+\s([A-Z_]+)"
-ARGUMENT_REGEX = "\s\d+\s\((.*)\)"
-FUNCTION_OFFSET_REGEX = "at\s(.*),\s"
-JUMP_TO_REGEX = "\d+\s\w+_JUMP_\w+\s+(\d+)"
-LINE_NUMBER_REGEX = "\s+(\d+)\s\w+"
-RETURN_REGEX = ">>"
-PRIVATE_FUNCTION_REGEX = "Disassembly of <code object (\w+)"
-FULL_PRIVATE_FUNCTION_REGEX = "Disassemblyof <code object (\w+).*>:(.*)Disassembly of <code object (\w+)"
-RETURN_VALUE_REGEX = "RETURN_VALUE"
+INSTRUCTION_REGEX = r"\s\d+\s([A-Z_]+)"
+ARGUMENT_REGEX = r"\s\d+\s\((.*)\)"
+FUNCTION_OFFSET_REGEX = r"at\s(.*),\s"
+JUMP_TO_REGEX = r"\d+\s\w+_JUMP_\w+\s+(\d+)"
+LINE_NUMBER_REGEX = r"\s+(\d+)\s\w+"
+RETURN_REGEX = r">>"
+PRIVATE_FUNCTION_REGEX = r"Disassembly of <code object (\w+)"
+FULL_PRIVATE_FUNCTION_REGEX = r"Disassemblyof <code object (\w+).*>:(.*)Disassembly of <code object (\w+)"
+RETURN_VALUE_REGEX = r"RETURN_VALUE"
 INSTRUCTION_DICT = {
 
     # Import
