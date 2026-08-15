@@ -53,8 +53,8 @@ INSTRUCTION_DICT = {
     # Import
     "LOAD_GLOBAL|LOAD_METHOD" : "{}.{}(",
 
-    "IMPORT_STAR" : ["IMPORT_NAME\s+\d+\s+\((.*)\)", "from {} import *"],
-    "IMPORT_NAME|IMPORT_FROM" : ["IMPORT_FROM\s+\d+\s+\((.*)\).*IMPORT_NAME\s+\d+\s+\((.*)\)",
+    "IMPORT_STAR" : [r"IMPORT_NAME\s+\d+\s+\((.*)\)", "from {} import *"],
+    "IMPORT_NAME|IMPORT_FROM" : [r"IMPORT_FROM\s+\d+\s+\((.*)\).*IMPORT_NAME\s+\d+\s+\((.*)\)",
                                  "from {} import {}"],
     "IMPORT_NAME": "import {}",
 
